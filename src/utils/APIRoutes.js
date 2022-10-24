@@ -1,4 +1,4 @@
-export const host =`https://server-chatapp-production.up.railway.app/`;
+export const host =`https://server-chat-app-mern-production.up.railway.app`;
 export const registerRouter = `/api/auth/register`
 export const loginRouter = `/api/auth/login`
 export const setAvatarRouter = `/api/auth/setAvatar`
