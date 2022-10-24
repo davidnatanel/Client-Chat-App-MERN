@@ -1,4 +1,4 @@
-export const host =`http://localhost:5000`;
+export const host =`https://server-chatapp-production.up.railway.app/`;
 export const registerRouter = `/api/auth/register`
 export const loginRouter = `/api/auth/login`
 export const setAvatarRouter = `/api/auth/setAvatar`

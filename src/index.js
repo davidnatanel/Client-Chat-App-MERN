@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://git.heroku.com/chatservicesocketio.git' || "http://localhost:5000";
+// axios.defaults.baseURL = 'https://chatservicesocketio.herokuapp.com' || "http://localhost:5000";
+axios.defaults.baseURL = "https://server-chatapp-production.up.railway.app/";
 console.log( process.env.REACT_APP_API)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

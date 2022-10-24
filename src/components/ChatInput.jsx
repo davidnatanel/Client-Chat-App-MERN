@@ -117,7 +117,7 @@ padding-bottom: 0.3rem;
     background-color: #ffffff34;
     input{
         width: 90%;
-        height: 60%;
+        height: 40px;
         background-color: transparent;
         color: white;
         border: none;

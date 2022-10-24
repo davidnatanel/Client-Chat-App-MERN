@@ -32,10 +32,13 @@ const Login = () => {
         e.preventDefault();
        if( handleValidation()){
         const { password, username } = values;
+        console.log(password,username)
         const {data}= await axios.post(loginRouter,{
             username,
             password
         })
+
+        console.log(data)
         if (data.status === false) {
           toast.error(data.msg, toastOptions);
         }
