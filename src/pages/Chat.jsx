@@ -23,7 +23,7 @@ const Chat = () => {
  
 
     useEffect(()=>{
-      console.log(localStorage.getItem("chat-app-user"));
+   
       
       (async function(){
         if(!localStorage.getItem("chat-app-user")){
